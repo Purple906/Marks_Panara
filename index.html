@@ -7,6 +7,13 @@
 			background-image: url(./assets/images/background_2.jpg); 
 			background-size: 1280px 960px;
 		}
+		.info{
+			display: inline-block;
+			float: left;
+			margin: 20px 20px;
+			padding: 0px 20px;
+			text-indent: 0px;
+		}
 		#title_bar{
 			position: center;
 			background-color:
@@ -74,10 +81,11 @@
 			display: block; 
 			border-radius: 5px; 
 		}
-		#Store_Hours{
-			position: right; 
+		#Store_Hours{ 
 			border: solid black 1px; 
-			border-radius: 5px
+			border-radius: 5px;
+			display:inline-block;
+			margin: 10px;
 		}
 		#displays{
 			width: 100%; 
@@ -108,11 +116,9 @@
 		p:first-child{
 			margin-top: 0px;
 		}
-		thead{
-			text-align: center;
-		}
 		td{
 			padding: 5px 10px; 
+			text-align: center;
 		}
 		ul{
 			margin: 0;
@@ -156,20 +162,30 @@
 		</ul>
 	</div>
 	<div id="Footer">
+		<div class="info">
+			<p>Panara has specialized in unique finds and has been operating since 1990.</p>
+			<p>Call us anytime (906) 226-4604</p>
+			<p>125 W Washington St. Marquette MI, 49855</p>
+			<p>Copyright Purple Haze Inc. 2015</p>
+		</div>
 		<table id="Store_Hours">
-		<thead colspan="2"><strong>Store Hours</strong></thead>
-			<tr>
-				<td>Mon-Fri</td>
-				<td>11:00am - 7:00pm</td>
-			</tr>	
-			<tr>
-				<td>Sat</td>
-				<td>11:00am - 6:00pm</td>
-			</tr>
-			<tr>
-				<td>Sun</td>
-				<td>11:00am - 4:00pm</td>
-			</tr>
+			<thead>
+				<tr colspan="2">
+				<td><strong>Store Hours</strong></td>
+				</tr>
+			</thead>
+				<tr>
+					<td>Mon-Fri</td>
+					<td>11:00am - 7:00pm</td>
+				</tr>	
+				<tr>
+					<td>Sat</td>
+					<td>11:00am - 6:00pm</td>
+				</tr>
+				<tr>
+					<td>Sun</td>
+					<td>11:00am - 4:00pm</td>
+				</tr>
 		</table>
 
 	</div>
