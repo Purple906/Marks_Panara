@@ -6,6 +6,7 @@
 		body{
 			background-image: url(./assets/images/background_2.jpg); 
 			background-size: 1280px 960px;
+			background-attachment: fixed;
 		}
 		#content_box{
 			position: center; 
@@ -27,8 +28,13 @@
 		.items{
 			display: inline-block; 
 			padding: 20px 20px 7.5px 20px; 
-			border-right: solid;
-			border-bottom: solid;
+			border-right:none;
+		}
+		.hoverable > .popover{
+			display: none;
+		}
+		.hoverable:hover > .popover{
+			display: block;
 		}
 		#footer{
 			position: center;
@@ -92,33 +98,56 @@
 		</div>
 <div id="content_box">
 	<ul id="displays">
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg">
+				<div class="popover">This item is fancy and looks great on anyone. It's also $10.00!
+				</div>
+			</li>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
 		</ul>
 		<ul id="displays">
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+		</ul>
+		<!-- <ul id="displays"> 
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
 		</ul>
 		<ul id="displays">
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-		</ul>
-		<ul id="displays">
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items"><img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-		</ul>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+			<li class="items hoverable">
+				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
+		</ul>-->
 </div>
 <div id="footer">
 	

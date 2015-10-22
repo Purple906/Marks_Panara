@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+	<style type="text/css">
+		li.hideDisplay{
+  			position: relative; /* This makes everything work.*/
+  			/* Allows you to layer overlapping elements. */
+  			z-index: 20; 
+  			color: #000;
+  			text-decoration: none;
+ 		}
+ 		li.hideDisplay:hover{
+ 		/* Allows you to layer overlapping elements. */
+			 z-index: 30; 
+ 		}
+ 		li.hideDisplay div.showDisplayOnHover{
+ 			display: none;
+ 		}
+ 		li.hideDisplay:hover div.showDisplayOnHover{ 
+ 			display: block;
+ 			position: absolute;
+ 			font-size: 18px;
+			 /* This sets the height of a line of text in the box. */
+			 line-height: 25px;
+			 /* These position the box where it needs to go. */
+			 top: 5px; 
+			 left: 20px;
+			 /* These adjust the size of the box when it appears. */
+			 width: auto;
+			 padding: 10px; 
+			 border: 1px solid #666666;
+			 background-color: #c0cedd; 
+			  /* text color */
+			  color: #000000;
+			  text-align: left;
+		}
+		img{
+			width: 100px;
+			height: auto;
+		}
+		li{
+			width: 130px;
+			height: auto;
+			text-align: center;
+			list-style-type: none;
+			display: inline-block;
+		}
+	</style>
+</head>
+
+<body>
+	<ul>
+		<li class="hideDisplay">
+	  		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Soccerball.svg/626px-Soccerball.svg.png">
+	  		<div class="showDisplayOnHover">This is Soccer Ball number 1, and it sells for $10.00.</div>
+  		</li>
+  	<li class="hideDisplay">
+  		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Soccerball.svg/626px-Soccerball.svg.png">
+  		<div class="showDisplayOnHover">This is Soccer Ball number 2, and it will cost you $5.00.</div>
+  	</li>
+  	</ul>
+  </body>
