@@ -34,8 +34,12 @@
 			  text-align: left;
 		}
 		img{
-			width: 120px;
-			height: auto;
+			position: relative;
+    		float: left;
+    		width:  100px;
+    		height: 120px;
+    		background-position: 50% 50%;
+    		background-repeat: no-repeat;
 			border:solid blue 1px;
 		}
 		li{
@@ -44,6 +48,15 @@
 			text-align: center;
 			list-style-type: none;
 			display: inline-block;
+		}
+		.crop {
+ 			height: 120px;
+ 			width: 100px;
+ 			overflow: hidden;
+		}
+		.crop img {
+ 			height: 120px;
+ 			width: 100px;
 		}
 	</style>
 </head>
@@ -62,11 +75,11 @@
 	  		<img src="./assets/images/panara_apparel/blanket_alpaca3.jpg">
 	  		<div class="showDisplayOnHover">This is blanket number 4, and it will cost you $5.00.</div>
 	  	</li>
-	  	<li class="hideDisplay">
+	  	<li class="hideDisplay crop">
 	  		<img src="./assets/images/panara_apparel/black_jacket.jpg">
 	  		<div class="showDisplayOnHover">This is a fancy black jacket, and it will cost you $5.00.</div>
 	  	</li>
-	  	<li class="hideDisplay">
+	  	<li class="hideDisplay crop">
 	  		<img src="./assets/images/panara_apparel/alpaca_sweater.jpg">
 	  		<div class="showDisplayOnHover">This is a sweet alpaca sweater, and it will cost you $5.00.</div>
 	  	</li>
