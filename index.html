@@ -17,12 +17,16 @@
 			width: 580px;
 		}
 		#title_bar{
+			background-image: url(./assets/images/map.png);
+			background-size: 960px 960px;
 			position: center;
-			background-color:
-			red; width: 960px;
+			width: 960px;
 			margin: auto;
 			border-radius: 5px;
 			overflow: hidden;
+			border-style:ridge;
+			border-color: #331919;
+			border-width: 10px;
 		}
 		#logo{
 			width: 150px;
@@ -30,13 +34,16 @@
 			float: left;
 		}
 		#content_box{
-			position: center absolute; 
-			background-color: blue; 
+			position: center; 
+			background-color: #AB3334; 
 			width: 960px; 
-			height: 900px; 
+			height: 1000px; 
 			margin: 10px auto; 
 			display: block; 
-			border-radius: 5px
+			border-radius: 5px;
+			border-style:ridge;
+			border-color: #331919;
+			border-width: 10px;
 		}
 		.store_front{ 
 			float: left; 
@@ -75,19 +82,29 @@
 			margin:10px;
 		}
 		#Footer{
+			background-image: url(./assets/images/map.png);
+			background-size: 960px 960px;
 			position: center; 
-			background-color: red; 
 			width: 960px; 
-			height: 150px; 
+			height: 175px; 
 			margin: 10px auto; 
 			display: block; 
 			border-radius: 5px; 
+			border-style:ridge;
+			border-color: #331919;
+			border-width: 10px;
 		}
 		#Store_Hours{ 
 			border: solid black 1px; 
 			border-radius: 5px;
 			display:inline-block;
-			margin: 10px;
+			margin: 15px;
+			color: #EDDAB6;
+		}
+		.line_info{
+			margin: 5px;
+			text-indent: 0px;
+			color: #EDDAB6;
 		}
 		#displays{
 			width: 100%; 
@@ -98,6 +115,7 @@
 		}
 		a{
 			text-decoration: none;
+			color: #EDDAB6;
 		}
 		li{
 			display: inline-block; 
@@ -114,6 +132,8 @@
 			text-indent: 25px;
 			padding: 0px 15px;
 			margin: 10px;
+			font-family: fantasy;
+			color: #EDDAB6;
 		}
 		p:first-child{
 			margin-top: 0px;
@@ -149,11 +169,12 @@
 			<p class="saying">IN THE END, WE ONLY <strong>REGRET,</strong> THE CHANCES WE DIDN'T <strong>TAKE!</strong></p>
 		</div>
 		<div id="story">
-			<p>In 2011, shortly after I learned that I was going to be a grandmother for the first time I also learned that I had breast cancer.</p>
-			<p>I decided it was time for a career change and began looking for some way to use my creativity, something that would still involve helping others and if at all possible, something a bit less stressful dare I hope, even fun?</p>
-			<p>In the summer of 2012 I learned that one of my favorite stores in town was for sale. Panara Imports has always offered high quality merchandise from around the world. I was one of the best customers but I never considered that I would own it. With the encouragement of friends and family I decided to pursue this new venture.</p>
-			<p>Carrying on with the traditional Panara Fare I used the first two years to learn the ropes, to become acquainted with the vendors, and to put my stamp on the look and feel of the store. Like most new business people I made some mistakes that I won't make again. I learned a great deal, but most importantly I learned that if this store was going to reflect me and the things that I am personally passionate about I would need to do more.</p>
-			<p>I was committed to supporting local artists and established a consignment program as a way for them to showcase their work. I became very interested in the Principles of Fair Trade and to finding products that support families throughout the world by paying fair wages, and not employing children. Product lines that are committed to using sustainable materials, and to providing skills and education for women and children or that give back to programs rescuing women from human trafficking and the sex trades.</p>
+			<p>Panara Imports opened in 1992 as Marquette's original hippie store with one of a kind clothing and gifts for mind - body - spirit.</p>
+			<p>After being located in the mall for many years the store returned to its original location in downtown Marquette, where I bought it in 2012.</p>
+			<p>A huge fan of the store for years, I am working to keep the vibe alive so that people who like the unique and the unusual will be able to visit for many years to come. The stores items have a story to tell, and visiting the store is an experience for the senses.</p>
+			<p>Carrying on with the traditional Panara Fare I used the first two years to learn the ropes, to become acquainted with the vendors, and to put my stamp on the look and feel of the store. I conduct business with one goal in mind, offer Unique Fashions and fabulous finds while featuring Fair trade merchandise from around the world, eco-friendly and organic clothing and the work of local craftspeople.</p>
+			<p>Panara Imports is a locally owned store that is committed to supporting local artists and established a consignment program as a way for them to showcase their work.</p> 
+			<p>In addition, I became very interested in the Principles of Fair Trade and to finding products that support families throughout the world by paying fair wages, and not employing children. Product lines that are committed to using sustainable materials, and to providing skills and education for women and children.</p>
 			<p>I've made some small steps in my goal to develop a store that reflects my values. The outcome should be a store that not only provides high quality merchandise at reasonable prices, but one that also supports and educates about the power we all have to make choices that ultimately make a difference in someone's life.</p>
 		</div>
 		<ul id="displays">
@@ -165,10 +186,10 @@
 	</div>
 	<div id="Footer">
 		<div class="info">
-			<p>Panara has specialized in unique finds and fabulous fasions, and has been operating since 1990.</p>
-			<p>Call us anytime (906) 226-4604</p>
-			<p>125 W Washington St. Marquette MI, 49855</p>
-			<p>Copyright Purple Hayes Inc. 2015</p>
+			<p class="line_info">Panara has specialized in unique finds and fabulous fasions, and has been operating since 1992.</p>
+			<p class="line_info">Call us anytime (906) 226-4604</p>
+			<p class="line_info">125 W Washington St. Marquette MI, 49855</p>
+			<p class="line_info">Copyright Purple Hayes Inc. 2015</p>
 		</div>
 		<table id="Store_Hours">
 			<thead>
@@ -182,11 +203,11 @@
 				</tr>	
 				<tr>
 					<td>Sat</td>
-					<td>11:00am - 6:00pm</td>
+					<td>12:00am - 7:00pm</td>
 				</tr>
 				<tr>
 					<td>Sun</td>
-					<td>11:00am - 4:00pm</td>
+					<td>12:00am - 4:00pm</td>
 				</tr>
 		</table>
 

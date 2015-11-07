@@ -9,6 +9,8 @@
 			background-attachment: fixed;
 		}
 		#title_bar{
+			background-image: url(./assets/images/map.png);
+			background-size: 960px 960px;
 			position: center;
 			background-color:red; 
 			width: 960px;
@@ -16,6 +18,9 @@
 			margin: auto;
 			border-radius: 5px;
 			overflow: hidden;
+			border-style:ridge;
+			border-color: #331919;
+			border-width: 10px;
 		}
 		#logo{
 			width: 150px;
@@ -23,15 +28,20 @@
 			float: left;
 		}
 		#content_box{
-			position: center absolute; 
-			background-color: blue; 
+			position: center; 
+			background-color: #AB3334;
 			width: 960px; 
-			height: 900px; 
+			height: 915px; 
 			margin: 10px auto; 
 			display: block; 
-			border-radius: 5px
+			border-radius: 5px;
+			border-style:ridge;
+			border-color: #331919;
+			border-width: 10px;
 		}
 		#Footer{
+			background-image: url(./assets/images/map.png);
+			background-size: 960px 960px;
 			position: center; 
 			background-color: red; 
 			width: 960px; 
@@ -39,11 +49,14 @@
 			margin: 10px auto; 
 			display: block; 
 			border-radius: 5px; 
+			border-style:ridge;
+			border-color: #331919;
+			border-width: 10px;
 		}
 		.contact{
 			border-radius: 5px;
-			border: solid black 1px;
-			margin: 5px;
+			border: solid #331919 5px;
+			margin: 10px;
 			padding: 0px;
 			display: inline-block;
 			float: right;
@@ -56,9 +69,43 @@
 			margin-left: 10px;
 			margin-top: 0px;
 		}
+		.data{
+			margin: 5px;
+		}
 		#info{
 			margin: 0px;
 			padding: 0px;
+		}
+		.info{
+			display: inline-block;
+			position: relative;
+			float: left;
+			margin: -7px 20px 0px 20px;
+			padding: 0px 20px;
+			text-indent: 0px;
+			width: 580px;
+		}
+		#e_store{
+			display: inline-block;
+			position: relative;
+			float: right;
+			margin: -130px 20px 8px 0px;
+			padding: 0px 20px;
+			text-indent: 0px;
+			width: 240px;
+			border: solid black 1px;
+			border-radius: 5px;
+			background-color: #331919;
+			box-shadow: 10px 10px 5px 0px;
+		}
+		.link{
+			text-decoration: none;
+			font-family: fantasy;
+			color: black;
+		}
+		p{
+			font-family: fantasy;
+			color: #EDDAB6;
 		}
 		p:first-child{
 			padding: 10px 0px 0px 0px;
@@ -90,20 +137,39 @@
 			text-align: center;
 			border: white solid 1px;
 		}
-		a{
+		.link{
 			text-decoration: none;
-			font-color:black;
+			font-family: fantasy;
+			color: #EDDAB6;
+		}
+		.link:hover{
+			text-decoration: underline;
+			font-size: 20px;
+		}
+		#logo2{
+			width: 350px;
+			height: auto;
+			border-radius: 5px;
+			margin: 0px 0px 10px 280px;
 		}
 		li{
 			display: inline-block; 
 			padding: 10px 30px; 
 			border-right: solid;
+			font-family: fantasy;
 		}
 		li:last-child{
 			border-right: none;
 		}
 		nav{
 			margin-top: 108px;
+		}
+		a{
+			color: #EDDAB6;
+			text-decoration: none;
+		}
+		strong{
+			text-decoration: underline;
 		}
 	</style>
 </head>
@@ -130,7 +196,7 @@
 			<p class="content_info">Panra Imports 
 			<br>125 W Washington
 			<br>Marquette, MI 49855</p>
-			<p class="content_info"> <strong>Email:</strong><a href="mailto:mark.m.hayes1@gmail.com">panaramqt@gmail.com</a></p>
+			<p class="content_info"> <strong>Email:</strong><a class="link" href="mailto:mark.m.hayes1@gmail.com"> panaramqt@gmail.com</a></p>
 			<p class="content_info"><strong>Store:</strong> (906) 226-4604</p>
 			<p class="content_info"><strong>Inquiries About Featuring Your Items in Panara Imports:</strong>
 			<br>Have a product you would like to show us? Please email a link to your website or attach photos. We would love to see what goodies you create! Thank you for your interest in my little store.</p>
@@ -138,7 +204,7 @@
 			<br>I am happy to work with you on your upcoming story. Send me an email and let us know what information I may provide you with.</p>
 			<p class="content_info"><strong>Products We Carry Only at Our Storefront:</strong> 
 			<br>We wish we could put every item we sell in our store in Marquette Michigan on our online shop too, but unfortunately, we cannot. Check back often, as we are always getting new products in or email panaramqt@gmail.com. if you have a question.
-			<p class="content_info">Check out the Panara Imports blog.<a href="#">Here</a> you can get great recipes, homekeeping tips, things Martha is inspired by and see bits of living in the beautiful Upper Pennisula, as well as learn about shop news!</p>
+			<p class="content_info">Check out the Panara Imports blog. <a class="link" href="#"><em>Here you can</em></a> get great recipes, homekeeping tips, things Martha is inspired by and see bits of living in the beautiful Upper Pennisula, as well as learn about shop news!</p>
 			<p class="content_info"><strong>Facebook</strong>
 			<br>Show us some love and show your friends what great taste you have! Support us by following along with us on Facebook Fan Page.</p>
 		</div>
@@ -148,9 +214,17 @@
 			<li class="social_media"><a href="https://www.linkedin.com/pub/martha-parks/95/665/226"><img class="social_logo" src="./assets/images/In-2CRev-128px-TM.png"></a></li>
 			<li class="social_media"><a href="mailto:mark.m.hayes1@gmail.com"><img class="social_logo" src="./assets/images/social-mail.png"></a></li>
 		</ul>
-		<div><a href="http://www.travelmarquettemichigan.com">this should be imbedded</div>
+		<img id="logo2" src="./assets/images/UP logo.jpg">
 	</div>
 	<div id="Footer">
+		<div class="info">
+			<p class="data">Panara has specialized in unique finds and fabulous fasions, and has been operating since 1990.</p>
+			<p class="data">Call us anytime (906) 226-4604</p>
+			<p class="data">125 W Washington St. Marquette MI, 49855</p>
+			<p class="data">Copyright Purple Hayes Inc. 2015</p>
+		</div>
+		<div id="e_store">
+			<a class="link" href="#">Visit our online store anytime for <strong>GREAT DEALS</strong> on local Yooper and fair trade certified items!</a>
 	</div>
 </body>
 </html>

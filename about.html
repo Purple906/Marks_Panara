@@ -11,18 +11,40 @@
 			position: center; 
 			background-color: blue; 
 			width: 960px; 
-			height: 650px; 
+			height: 775px; 
 			margin: 10px auto; 
 			display: block; 
 			border-radius: 5px;
+		}
+		#e_store{
+			display: inline-block;
+			position: relative;
+			float: right;
+			margin: -130px 20px 8px 0px;
+			padding: 0px 20px;
+			text-indent: 0px;
+			width: 240px;
+			border: solid black 1px;
+			border-radius: 5px;
+			background-color: grey;
+			box-shadow: 10px 10px 5px 0px;
 		}
 		#footer{
 			position: center;
 			background-color:red; 
 			width: 960px;
-			height: 75px;
+			height: 175px;
 			margin: auto;
 			border-radius: 5px;
+		}
+		.info{
+			display: inline-block;
+			position: relative;
+			float: left;
+			margin: -20px 20px 0px 20px;
+			padding: 0px 20px;
+			text-indent: 0px;
+			width: 580px;
 		}
 		#title_bar{
 			position: center;
@@ -38,6 +60,11 @@
 			display: inline;
 			float: left;
 		}
+		.link{
+			text-decoration: none;
+			font-family: fantasy;
+			color: black;
+		}
 		.mom{
 			height: 150px;
 			width: auto;
@@ -48,6 +75,9 @@
 		}
 		.press{
 			display: inline-block;
+			width: 150px;
+			height: auto;
+			margin: 20px 10px 10px 90px;
 		}
 		#story{
 			display: inline; 
@@ -71,7 +101,7 @@
 			border-right: none;
 			padding: 5px;
 			position: relative;
-			margin-top: -20px;
+			margin-top: -25px;
 		}
 		li{
 			display: inline-block; 
@@ -85,8 +115,10 @@
 			margin-top: 108px;
 		}
 		p{
-			margin: 10px 8px;
-			color: white;
+			padding-left:5px;
+			padding-top: 3px;
+			font-family: fantasy;
+			margin: 3px 0px;
 		}
 	</style>
 </head>
@@ -115,13 +147,13 @@
 			<p>I've made some small steps in my goal to develop a store that reflects my values. The outcome should be a store that not only provides high quality merchandise at reasonable prices, but one that also supports and educates about the power we all have to make choices that ultimately make a difference in someone's life.</p>
 		</div>
 		<div class="press">
-			<a href="http://uppermichiganssource.com/news/local/fair-trade-items-stocked-at-marquette-store?id=1186888"><img src="http://uppermichiganssource.com/resources/media/wluc_header_logo.png"/></a>
+			<a href="http://uppermichiganssource.com/news/local/fair-trade-items-stocked-at-marquette-store?id=1186888"><img class="press" src="http://uppermichiganssource.com/resources/media/wluc_header_logo.png"/></a>
 		</div>
 		<div class="press">
-			<a href="http://www.ahealthiermichigan.org/2015/04/30/wear-your-conscience-5-michigan-shops-to-green-up-your-wardrobe/"><img src="http://www.ahealthiermichigan.org/wp-content/themes/ahm-responsive/images/logo.png"/></a>
+			<a href="http://www.ahealthiermichigan.org/2015/04/30/wear-your-conscience-5-michigan-shops-to-green-up-your-wardrobe/"><img class="press" src="./assets/images/ahm.png"></a>
 		</div>
 		<div class="press">
-			<a href="http://abc10up.com/downtown-marquette-businesses-support-united-way/"><img src="http://abc10up.com/wp-content/uploads/2014/10/320Logo.png"/></a>
+			<a href="http://abc10up.com/downtown-marquette-businesses-support-united-way/"><img  class="press"src="http://abc10up.com/wp-content/uploads/2014/10/320Logo.png"/></a>
 		</div>
 </div>
 <div id="footer">
@@ -131,6 +163,15 @@
 			<li class="social_media"><a href="https://www.linkedin.com/pub/martha-parks/95/665/226"><img class="social_logo" src="./assets/images/In-2CRev-128px-TM.png"></a></li>
 			<li class="social_media"><a href="mailto:mark.m.hayes1@gmail.com"><img class="social_logo" src="./assets/images/social-mail.png"></a></li>
 		</ul>
+		<div class="info">
+			<p>Panara has specialized in unique finds and <br>fabulous fasions, and has been operating since 1990.</p>
+			<p>Call us anytime (906) 226-4604</p>
+			<p>125 W Washington St. Marquette MI, 49855</p>
+			<p>Copyright Purple Hayes Inc. 2015</p>
+		</div>
+		<div id="e_store">
+			<a class="link" href="#">Visit our online store anytime for <strong>GREAT DEALS</strong> on local Yooper and fair trade certified items!</a>	
+		</div>
 </div>
 </body>
 </html>
