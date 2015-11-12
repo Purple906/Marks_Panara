@@ -2,91 +2,11 @@
 <html>
 <head>
 		<title>Panara Imports-Products</title>
-		<style type="text/css">
-		body{
-			background-image: url(./assets/images/background_2.jpg);
-			background-size: 1280px 960px;
-			background-attachment: fixed;
-		}
-		#content_box{
-			position: center;
-			background-color: blue;
-			width: 960px;
-			height: 650px;
-			margin: 10px auto;
-			display: block;
-			border-radius: 5px;
-  			box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.5);
-  			padding: 8px;
-		}
-		#displays{
-			width: 100%;
-			height:155px;
-			display: inline-block;
-			margin: 0px;
-			padding: 0px;
-			text-align: center;
-		}
-		.items{
-			display: inline-block;
-			padding: 20px 20px 7.5px 20px;
-			border-right:none;
-		}
-		.hoverable > .popover{
-			display: none;
-		}
-		.hoverable:hover > .popover{
-			display: block;
-		}
-		#footer{
-			position: center;
-			background-color:red;
-			width: 960px;
-			height: 75px;
-			margin: auto;
-			border-radius: 5px;
-		}
-		#title_bar{
-			position: center;
-			background-color:red;
-			width: 960px;
-			height: 150px;
-			margin: auto;
-			border-radius: 5px;
-			overflow: hidden;
-		}
-		#logo{
-			width: 150px;
-			display: inline;
-			float: left;
-		}
-		.products{
-			border:solid;
-			width: 125px;
-			display: inline-block;
-			text-align: center;
-			padding: 0px;
-			margin: 0px;
-		}
-		a{
-			text-decoration: none;
-		}
-		li{
-			display: inline-block;
-			padding: 10px 30px;
-			border-right: solid;
-		}
-		li:last-child{
-			border-right: none;
-		}
-		nav{
-			margin-top: 108px;
-		}
-		</style>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
-<div id="title_bar">
-		<img id="logo" src="./assets/images/panara-imports-logo.svg"/>
+<div class="title_bar">
+		<img class="logo" src="./assets/images/panara-imports-logo.svg"/>
 		<nav>
  			 <ul>
                 <li><a href="./index.html">Home</a></li>
@@ -98,61 +18,25 @@
   			</ul>
 		</nav>
 		</div>
-<div id="content_box">
-	<ul id="displays">
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg">
-				<div class="popover">This item is fancy and looks great on anyone. It's also $10.00!
-				</div>
-			</li>
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-		</ul>
-		<ul id="displays">
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-		</ul>
-		<!-- <ul id="displays">
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-		</ul>
-		<ul id="displays">
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-			<li class="items hoverable">
-				<img class="products" src="./assets/images/panara-imports-logo.svg"></li>
-		</ul>-->
+<div class="content_box">
+    <p>This is where the embedded Square account will go</p>
+    <ul class="social">
+            <li class="social_media"><a href="http://www.yelp.com/biz/panara-imports-inc-marquette"><img class="social_logo" src="./assets/images/yelp-2c-outline.png"></a></li>
+            <li class="social_media"><a href="https://www.facebook.com/Panaramqt?fref=ts"><img class="social_logo" src="./assets/images/FB-f-Logo__blue_1024.png"></a></li>
+            <li class="social_media"><a href="https://www.linkedin.com/pub/martha-parks/95/665/226"><img class="social_logo" src="./assets/images/In-2CRev-128px-TM.png"></a></li>
+            <li class="social_media"><a href="mailto:mark.m.hayes1@gmail.com"><img class="social_logo" src="./assets/images/social-mail.png"></a></li>
+        </ul>
 </div>
-<div id="footer">
-
+<div class="footer">
+    <div class="info">
+        <p>Panara has specialized in unique finds and fabulous fasions, and has been operating since 1990.</p>
+        <p>Call us anytime (906) 226-4604</p>
+        <p>125 W Washington St. Marquette MI, 49855</p>
+        <p>Copyright Purple Hayes Inc. 2015</p>
+    </div>
+    <div class="e_store">
+        <a class="link" href="#">Visit our online store anytime for <strong>GREAT DEALS</strong> on local Yooper and fair trade certified items!</a>
+    </div>
 </div>
 </body>
 </html>

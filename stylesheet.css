@@ -1,0 +1,297 @@
+body{ /*carry over*/
+            background-image: url(./assets/images/background_2.jpg);
+            background-size: 1280px 960px;
+            background-attachment: fixed;
+        }
+        .content_info{
+            font-size: 16px;
+            font-family: fantasy;
+            margin-left: 10px;
+            margin-top: 0px;
+            text-indent: 0px;
+        }
+        .content_info:first-child{
+            padding-top: 15px;
+        }
+        .e_store{
+            display: inline-block;
+            position: relative;
+            float: right;
+            margin: 30px 20px 8px 0px;
+            padding: 0px 20px;
+            text-indent: 0px;
+            width: 240px;
+            border: solid black 1px;
+            border-radius: 5px;
+            background-color: grey;
+            box-shadow: 10px 10px 5px 0px;
+        }
+        .fair_trade{
+            border-right: none;
+            padding: 5px 0px 0px 10px;
+            display: block;
+        }
+        .fair_trade:first-child{
+            margin-top: 0px;
+        }
+        .fair_list{
+            margin: 0px;
+            padding-left: 10px;
+        }
+        .info{
+            display: inline-block;
+            float: left;
+            position: relative;
+            margin: 10px 20px 0px 0px;
+            padding: 0px 20px;
+            text-indent: 0px;
+            width: 580px;
+        }
+        .line_info{
+            margin: 5px;
+            text-indent: 0px;
+            color: #EDDAB6;
+        }
+        .map{
+            margin: 10px;
+            padding: 0px;
+            display: inline-block;
+            float: right;
+        }
+        .title_bar{ /*carry over*/
+            background-image: url(./assets/images/map.png);
+            background-size: 960px 960px;
+            position: center;
+            width: 960px;
+            margin: auto;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .logo{ /*carry over*/
+            width: 150px;
+            display: inline;
+            float: left;
+        }
+        .content_box{
+            position: center;
+            background-color: #AB3334;
+            width: 960px;
+            height: auto;
+            margin: 10px auto;
+            display: block;
+            border-radius: 5px;
+        }
+        .store_front{
+            float: left;
+            padding: 0px 10px 0px 0px;
+            margin: 20px 10px 10px 10px;
+            width: 450px;
+        }
+        .store_img{
+            border-radius: 5px;
+            border-width: 450px;
+            border: solid 1px;
+            width: 456px;
+        }
+        .link{
+            text-decoration: none;
+            font-family: fantasy;
+            color: black;
+        }
+        .link:hover{
+            text-decoration: underline;
+            font-size: 20px;
+        }
+        .logo2{
+            width: 350px;
+            height: auto;
+            border-radius: 5px;
+            margin: 0px 0px 10px 280px;
+        }
+        .mom{
+            height: 150px;
+            width: auto;
+            border-radius: 10px;
+            border:solid 1px;
+            margin: 10px;
+            float: left;
+        }
+        .press{
+            display: inline-block;
+            width: 150px;
+            height: auto;
+            margin: 20px 10px 10px 90px;
+        }
+        .products{
+            border:solid;
+            width: 200px;
+            display: inline-block;
+            text-align: center;
+        }
+        .poa{
+            background-color: grey;
+            display: inline-block;
+            position: center;
+            width: 720px;
+            height: 250px;
+            margin: 10px 0px 10px 15px;
+            border-radius: 5px;
+        }
+        .philosophy{
+            background-color: grey;
+            display: inline-block;
+            width: 930px;
+            height: 1525px;
+            margin: 10px 0px 10px 15px;
+            border-radius: 5px;
+        }
+        .saying{
+            display: inline-block;
+            width: 444px;
+            height: auto;
+            font-family: cursive;
+            font-size: 24px;
+            text-align: center;
+            text-indent: 0px;
+            padding: 0px;
+            border-style: double;
+            border-radius: 5px;
+            margin: 10px 10px 10px 2.5px;
+        }
+        .saying2{
+            border-style: double;
+            border: 1px;
+            width: 930px;
+            font-size: 18px;
+            font-family: fantasy;
+            float: left;
+            margin: 10px;
+            padding: 5px;
+        }
+        .story{
+            display: inline;
+            font-size: 18px;
+            margin:10px;
+        }
+        .social{
+            float: left;
+            clear: all;
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            position: fixed;
+        }
+        .social_media{
+            border-right: none;
+            padding: 0px;
+            position: relative;
+            margin-top: 0px;
+            margin-left: -50px;
+            display: block;
+        }
+        .social_media:first-child{
+            margin-top: -750px;
+        }
+        .social_logo{
+            height: auto;
+            width: 50px;
+            border-radius: 10px;
+            background-color: #4875B4;
+            text-align: center;
+            border: white solid 1px;
+        }
+        .footer{ /*carry over*/
+            background-image: url(./assets/images/map.png);
+            background-size: 960px 960px;
+            position: center;
+            width: 960px;
+            height: 175px;
+            margin: 10px auto;
+            display: block;
+            border-radius: 5px;
+        }
+        .Store_Hours{
+            border: solid #331919 5px;
+            border-radius: 5px;
+            color: #EDDAB6;
+            display:inline-block;
+            float: right;
+            margin: 20px 30px;
+        }
+
+        .displays{
+            width: 100%;
+            height:155px;
+            display: inline-block;
+            margin: auto;
+            text-align: center;
+        }
+        /*h1{
+            background-image: url(./assets/images/background_2.jpg);
+            background-size: 960px 480px;
+            padding: 20px 20px 60px 20px;
+            margin: 0px;
+            border-radius: 5px 5px 0px 0px;
+        }
+        .foot_header{
+            background-image: url(./assets/images/background_2.jpg);
+            background-size: 960px 480px;
+            padding: 5px 20px 30px 20px;
+            margin: 10px 0px;
+            border-radius: 0px 0px 5px 5px;
+        }
+        .foot_header1{
+            background-image: url(./assets/images/background_2.jpg);
+            background-size: 960px 480px;
+            padding: 5px 20px 30px 20px;
+            margin: 0px 0px 0px 0px;
+            border-radius: 0px 0px 5px 5px;
+        }*/
+        h3{
+            font-family: fantasy;
+            font-size: 20px;
+            margin: -25px 10px 10px 15px;
+        }
+        h4{
+            margin-top: 15px;
+            margin-bottom: 5px;
+            padding-left: 5px;
+        }
+        a{
+            text-decoration: none;
+            color: #EDDAB6;
+        }
+        li{
+            display: inline-block;
+            padding: 10px 30px;
+            border-right: solid;
+        }
+        li:last-child{
+            border-right: none;
+        }
+        nav{
+            margin-top: 108px;
+        }
+        p{
+            font-size: 16px;
+            text-indent: 25px;
+            padding: 0px 15px;
+            margin: 10px;
+            font-family: fantasy;
+            color: #EDDAB6;
+        }
+        p:first-child{
+            margin-top: 0px;
+        }
+        td{
+            padding: 5px 10px;
+            text-align: center;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            margin-top: auto;
+        }
+        strong{
+            text-decoration: underline;
+        }
