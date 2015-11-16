@@ -93,6 +93,9 @@ body{ /*carry over*/
             border: solid 1px;
             width: 456px;
         }
+        .square{
+            background-color: #AB3334;
+        }
         .link{
             text-decoration: none;
             font-family: fantasy;
@@ -223,7 +226,7 @@ body{ /*carry over*/
             width: 100%;
             height:155px;
             display: inline-block;
-            margin: auto;
+            margin: 20px;
             text-align: center;
         }
         /*h1{
