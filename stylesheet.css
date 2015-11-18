@@ -1,4 +1,4 @@
-body{ /*carry over*/
+        body{
             background-image: url(./assets/images/background_2.jpg);
             background-size: 1280px 960px;
             background-attachment: fixed;
@@ -43,7 +43,7 @@ body{ /*carry over*/
             float: left;
             position: relative;
             margin: 10px 20px 0px 0px;
-            padding: 0px 20px;
+            padding: 10px 20px;
             text-indent: 0px;
             width: 580px;
         }
@@ -58,7 +58,7 @@ body{ /*carry over*/
             display: inline-block;
             float: right;
         }
-        .title_bar{ /*carry over*/
+        .title_bar{
             background-image: url(./assets/images/map.png);
             background-size: 960px 960px;
             position: center;
@@ -67,7 +67,7 @@ body{ /*carry over*/
             border-radius: 5px;
             overflow: hidden;
         }
-        .logo{ /*carry over*/
+        .logo{
             width: 150px;
             display: inline;
             float: left;
@@ -93,9 +93,6 @@ body{ /*carry over*/
             border: solid 1px;
             width: 456px;
         }
-        .square{
-            background-color: #AB3334;
-        }
         .link{
             text-decoration: none;
             font-family: fantasy;
@@ -103,13 +100,14 @@ body{ /*carry over*/
         }
         .link:hover{
             text-decoration: underline;
-            font-size: 20px;
         }
         .logo2{
+            float: right;
+            display: inline-block;
             width: 350px;
             height: auto;
             border-radius: 5px;
-            margin: 0px 0px 10px 280px;
+            margin: 0px 15px 10px 20px;
         }
         .mom{
             height: 150px;
@@ -135,8 +133,8 @@ body{ /*carry over*/
             background-color: grey;
             display: inline-block;
             position: center;
-            width: 720px;
-            height: 250px;
+            width: auto;
+            height: auto;
             margin: 10px 0px 10px 15px;
             border-radius: 5px;
         }
@@ -144,7 +142,7 @@ body{ /*carry over*/
             background-color: grey;
             display: inline-block;
             width: 930px;
-            height: 1525px;
+            height: auto;
             margin: 10px 0px 10px 15px;
             border-radius: 5px;
         }
@@ -178,7 +176,6 @@ body{ /*carry over*/
         }
         .social{
             float: left;
-            clear: all;
             margin: 0px;
             padding: 0px;
             text-align: center;
@@ -203,7 +200,7 @@ body{ /*carry over*/
             text-align: center;
             border: white solid 1px;
         }
-        .footer{ /*carry over*/
+        .footer{
             background-image: url(./assets/images/map.png);
             background-size: 960px 960px;
             position: center;
@@ -253,7 +250,7 @@ body{ /*carry over*/
         h3{
             font-family: fantasy;
             font-size: 20px;
-            margin: -25px 10px 10px 15px;
+            margin: 0px 10px 10px 15px;
         }
         h4{
             margin-top: 15px;
