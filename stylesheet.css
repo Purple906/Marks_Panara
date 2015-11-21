@@ -60,12 +60,25 @@
         }
         .title_bar{
             background-image: url(./assets/images/map.png);
-            background-size: 960px 960px;
+            background-size: 1280px 960px;
+            position: center;
+            width: 100%;
+            margin: auto;
+            margin-top: -150px;
+            border-radius: 5px;
+            position: fixed;
+            z-index: 1;
+        }
+        .nav_bar{
             position: center;
             width: 960px;
             margin: auto;
-            border-radius: 5px;
             overflow: hidden;
+        }
+        .spacer{
+            width: 100%;
+            height: 150px;
+            position: relative;
         }
         .logo{
             width: 150px;
@@ -189,7 +202,7 @@
             margin-left: 0px;
             padding: 0px;
             text-align: center;
-            position: absolute;
+            position: fixed;
         }
         .social_media{
             border-right: none;
@@ -303,4 +316,5 @@
         }
         strong{
             text-decoration: underline;
+            color: #331919;
         }
