@@ -227,11 +227,13 @@
         }
 
         .displays{
-            width: 100%;
+            width: 65%;
             height:155px;
             display: inline-block;
-            margin: 0px 0px 0px 20px;
-            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            margin-right: auto;
+            margin-left: 155px;
         }
         /*h1{
             background-image: url(./assets/images/background_2.jpg);
