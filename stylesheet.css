@@ -246,13 +246,13 @@
         }
 
         .displays{
-            width: 65%;
+            width: 85%;
             height:155px;
             display: inline-block;
             margin-top: 10px;
             margin-bottom: 20px;
             margin-right: auto;
-            margin-left: 155px;
+            margin-left: 65px;
         }
         /*h1{
             background-image: url(./assets/images/background_2.jpg);
