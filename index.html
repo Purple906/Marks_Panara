@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <!-- Add the new slick-theme.css if you want the default styling -->
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -13,18 +15,28 @@
 	</head>
 	<body>
 	<div class="title_bar">
-		<img class="logo" src="./assets/images/panara-imports-logo.svg"/>
-		<nav>
+        <img class="logo" src="./assets/images/panara-imports-logo.svg"/>
+        <h2 class="title">Panara Imports</h2>
+        <ul class="social">
+            <li class="social_media"><a href="http://www.yelp.com/biz/panara-imports-inc-marquette"><img class="social_logo" src="./assets/images/yelp-2c-outline.png"></a></li>
+            <li class="social_media"><a href="https://www.facebook.com/Panaramqt?fref=ts"><img class="social_logo" src="./assets/images/FB-f-Logo__blue_1024.png"></a></li>
+            <li class="social_media"><a href="https://www.linkedin.com/pub/martha-parks/95/665/226"><img class="social_logo" src="./assets/images/In-2CRev-128px-TM.png"></a></li>
+            <li class="social_media"><a href="mailto:mark.m.hayes1@gmail.com"><img class="social_logo" src="./assets/images/social-mail.png"></a></li>
+        </ul>
+    </div>
+    <div class="nav_bar">
+        <nav>
  			 <ul>
    				<li><a href="./index.html">Home</a></li>
    				<li><a href="./about.html">About</a></li>
    				<li><a href="./products.html">Products</a></li>
    				<li><a href="./fair_trade.html">Fair Trade</a></li>
     			<li><a href="./contact_page.html">Contact Us</a></li>
-    			<li><a href="#"><img src="./assets/images/png/FB-FindUsonFacebook-online-100.png"></a></li>
+                <li class="e_store"><a href="https://mkt.com/panara-imports" class="sq-embed-button" data-style-background-color="#0b42b7" data-style-width="250px" data-style-height="36px">Check out our Online Store</a>
+            <script src="https://cdn.sq-api.com/market/embed.js" charset="utf-8"></script></li>
   			</ul>
-		</nav>
-		</div>
+        </nav>
+    </div>
 	<div class="content_box">
 		<div class="store_front">
 			<img class="store_img" src="./assets/images/panara_main.jpg">
@@ -39,17 +51,18 @@
 			<p>In addition, I became very interested in the Principles of Fair Trade and to finding products that support families throughout the world by paying fair wages, and not employing children. Product lines that are committed to using sustainable materials, and to providing skills and education for women and children.</p>
 			<p>I've made some small steps in my goal to develop a store that reflects my values. The outcome should be a store that not only provides high quality merchandise at reasonable prices, but one that also supports and educates about the power we all have to make choices that ultimately make a difference in someone's life.</p>
 		</div>
-		<ul class="displays">
-			<li><img class="products" src="./assets/images/panara_apparel/casual.jpg"></li>
-			<li><img class="products" src="./assets/images/panara_apparel/incents.jpg"></li>
-			<li><img class="products" src="./assets/images/panara_apparel/oils.jpg"></li>
-		</ul>
-        <ul class="social">
-            <li class="social_media"><a href="http://www.yelp.com/biz/panara-imports-inc-marquette"><img class="social_logo" src="./assets/images/yelp-2c-outline.png"></a></li>
-            <li class="social_media"><a href="https://www.facebook.com/Panaramqt?fref=ts"><img class="social_logo" src="./assets/images/FB-f-Logo__blue_1024.png"></a></li>
-            <li class="social_media"><a href="https://www.linkedin.com/pub/martha-parks/95/665/226"><img class="social_logo" src="./assets/images/In-2CRev-128px-TM.png"></a></li>
-            <li class="social_media"><a href="mailto:mark.m.hayes1@gmail.com"><img class="social_logo" src="./assets/images/social-mail.png"></a></li>
-        </ul>
+		<div class="displays">
+			<div class="products_div"><img class="products" src="./assets/images/panara_apparel/casual.jpg"></div>
+			<div class="products_div"><img class="products" src="./assets/images/panara_apparel/incents.jpg"></div>
+			<div class="products_div"><img class="products" src="./assets/images/panara_apparel/oils.jpg"></div>
+            <div class="products_div"><img class="products" src="./assets/images/panara_apparel/braclets.jpg"></div>
+            <div class="products_div"><img class="products" src="./assets/images/panara_apparel/up_neckless.jpg"></div>
+            <div class="products_div"><img class="products" src="./assets/images/panara_apparel/panara_shirt.jpg"></div>
+            <div class="products_div"><img class="products" src="./assets/images/panara_apparel/alpaca_sweater.jpg"></div>
+            <div class="products_div"><img class="products" src="./assets/images/panara_apparel/blanket_alpaca2.jpg"></div>
+            <div class="products_div"><img class="products" src="./assets/images/panara_apparel/gloves.jpg"></div>
+            <div class="products_div"><img class="products" src="./assets/images/panara_apparel/shoes1.jpg"></div>
+		</div>
 	</div>
 	<div class="footer">
 		<div class="info">
@@ -77,11 +90,23 @@
 					<td>12:00am - 4:00pm</td>
 				</tr>
 		</table>
-
 	</div>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.displays').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        });
+    });
+  </script>
 	</body>
 
 </html>
