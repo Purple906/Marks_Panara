@@ -73,7 +73,7 @@
         .title{
             float: left;
             display: inline;
-            margin: 40px 20px 0px 20px;
+            margin: 30px 20px 0px 15px;
             text-align: center;
         }
         .logo{
@@ -83,9 +83,8 @@
             float: left;
         }
         .content_box{
-            position: ;
             background-color: #AB3334;
-            width: 960px;
+            width: 100%;
             height: auto;
             margin: 220px auto 0px;
             display: block;
@@ -192,7 +191,7 @@
         }
         .social{
             float: right;
-            margin: 40px 60px 0px 0px;
+            margin: -40px 60px 0px 0px;
             padding: 0px;
             text-align: center;
             display: inline;
@@ -213,6 +212,16 @@
             text-align: center;
             border: white solid 1px;
         }
+        .slogan{
+            font-size: 10px;
+            text-indent: 0px;
+            display: block;
+            margin: 65px 0px 0px 100px;
+            font-family: fantasy;
+            color: #EDDAB6;
+            width: 450px;
+            height: 12px;
+        }
         .footer{
             background-image: url(./assets/images/map.png);
             background-size: 960px 960px;
@@ -230,7 +239,10 @@
             float: right;
             margin: 10px 40px;
         }
-
+        .carousel{
+            width: 960px;
+            height: auto;
+        }
         .displays{
             width: 85%;
             height:155px;
