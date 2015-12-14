@@ -146,7 +146,8 @@
         .products_div{
             border-color: transparent;
             width: 200px;
-            margin: 0px;
+            margin: auto;
+            padding-left: 10px;
             display: inline;
             text-align: center;
         }
@@ -246,8 +247,10 @@
             margin: 10px 40px;
         }
         .carousel{
-            width: 960px;
+            margin: 10px 0px 20px -30px;
+            width: 800px;
             height: auto;
+            border-right: solid;
         }
         .displays{
             width: 85%;
