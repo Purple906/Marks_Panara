@@ -14,12 +14,11 @@
             padding-top: 15px;
         }
         .e_store{
-            float: right;
-            margin: 10px 50px 0px 0px;
+            float: left;
+            margin: 15px 0px 10px 20px;
             padding: 0px;
-            width: 240px;
+            width: 220px;
             border-radius: 5px;
-            box-shadow: 10px 10px 5px 0px;
         }
         .fair_trade{
             border-right: none;
@@ -61,14 +60,21 @@
             background-color: #AB3334;
             position: fixed;
             overflow: hidden;
+            z-index: 1;
         }
         .nav_bar{
-            background-color: #e8d1a4;
+            background-color: black;
             position: fixed;
             width: 100%;
             height: 60px;
             margin: auto;
             margin-top: -115px;
+            z-index: 1;
+        }
+        .nav_collapse{
+            background-color: black;
+            margin: auto;
+            width: auto;
         }
         .title{
             float: left;
@@ -206,7 +212,7 @@
         }
         .social_logo{
             height: auto;
-            width: 50px;
+            width: 35px;
             border-radius: 10px;
             background-color: #4875B4;
             text-align: center;
@@ -289,8 +295,9 @@
         }
         li{
             display: inline-block;
-            padding: 20px 30px;
+            padding: 10px 30px 20px 30px;
             border-right: none;
+            height: 30px;
         }
         nav{
             margin-top: 0px;
