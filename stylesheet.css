@@ -3,6 +3,12 @@
             background-size: 1280px 960px;
             background-attachment: fixed;
         }
+        .blog{
+            width: 290px;
+            height: auto;
+            margin: 10px 0px 0px 5px;
+            border-radius: 5px;
+        }
         .content_info{
             font-size: 16px;
             font-family: fantasy;
@@ -87,6 +93,7 @@
             margin: 220px auto 0px;
             display: block;
             border-radius: 5px;
+            overflow: hidden;
         }
         .say-hey{
             text-align: center;
@@ -97,6 +104,11 @@
             border-bottom: 5px solid black;
             margin: 20px auto;
             width: 120px;
+        }
+        .foot_step_1{
+            border-bottom: 5px solid black;
+            margin: 20px 0px 20px 280px;
+            width: 420px;
         }
         .copyright{
             text-align: center;
@@ -116,8 +128,8 @@
         }
         .store_front{
             float: left;
-            padding: 0px 10px 0px 0px;
-            margin: 20px 10px 10px 10px;
+            padding: 0px 0px 0px 0px;
+            margin: 20px 20px 10px 10px;
             width: 450px;
         }
         .store_img{
@@ -157,15 +169,16 @@
         }
         .products{
             border:solid;
+            border-radius: 5px;
             width: 200px;
+            margin-right: 20px;
             display: inline;
             text-align: center;
         }
         .products_div{
             border-color: transparent;
             width: 200px;
-            margin: auto;
-            padding-left: 10px;
+            padding: 10px;
             display: inline;
             text-align: center;
         }
@@ -215,7 +228,7 @@
             margin:10px;
         }
         .img_story{
-            margin: 10px 0px 20px 10px;
+            margin: 20px 0px 20px 10px;
             width: 900px;
             float: left;
             height: auto;
@@ -271,25 +284,24 @@
         .store_info{
             display: inline;
             width: 300px;
-            height: 700px;
+            height: auto;
             float: right;
-            margin: 30px 25px 20px -25px;
-            padding-top: 5px;
-            border-right: solid;
+            margin: -200px 25px 20px -25px;
+            padding-top: 10px;
+            padding-bottom: 5px;
             border-radius: 5px;
             background-color: black;
         }
         .carousel{
-            margin: 10px 0px 20px -30px;
-            width: 900px;
-            height: auto;
+            margin: 10px 0px 0px -30px;
+            width: 940px;
         }
         .displays{
-            width: 85%;
+            width: 90%;
             height:155px;
             display: inline-block;
             margin-top: 10px;
-            margin-bottom: 20px;
+            margin-bottom: 0px;
             margin-right: auto;
             margin-left: 65px;
         }
