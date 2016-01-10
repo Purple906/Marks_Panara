@@ -58,7 +58,7 @@ body{
 .blog{
     width: 290px;
     height: auto;
-    margin: 10px 0px 0px -10px;
+    margin: 10px 0px 0px 0px;
     border-radius: 5px;
 }
 .carousel{
@@ -74,7 +74,7 @@ body{
     background-color: #AB3334;
     width: 100%;
     height: auto;
-    margin: 220px auto 0px;
+    margin: 10px auto 0px;
     display: block;
     border-radius: 5px;
     overflow: hidden;
@@ -154,8 +154,9 @@ body{
     border-radius: 5px;
 }
 .img_story{
-    margin: 40px 0px 20px 10px;
-    width: 100%;
+    margin: 0px 0px 20px 10px;
+    width: 900px;
+    display: inline;
     float: left;
     height: auto;
 }
@@ -331,10 +332,10 @@ body{
     margin: 10px 20px;
 }
 .store_info{
-    display: inline-block;
+    display: inline;
     width: 300px;
     height: auto;
-    float: right;
+
     margin: 20px auto;
     padding-top: 10px;
     padding-bottom: 5px;
