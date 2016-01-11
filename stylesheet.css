@@ -74,7 +74,7 @@ body{
     background-color: #AB3334;
     width: 100%;
     height: auto;
-    margin: 10px auto 0px;
+    margin: 10px 15px 0px 0px;
     display: block;
     border-radius: 5px;
     overflow: hidden;
@@ -104,9 +104,6 @@ body{
 }
 .contact_item:last-child{
     border-right: none;
-}
-.container-fluid{
-    padding: 0 15px;
 }
 .displays{
     width: 90%;
@@ -309,6 +306,7 @@ body{
     display: inline;
     font-size: 18px;
     margin:10px;
+    width: 750px;
 }
 .say-hey{
     text-align: center;
@@ -338,8 +336,8 @@ body{
     display: inline;
     width: 300px;
     height: auto;
-
-    margin: 20px auto;
+    float: left;
+    margin: 20px;
     padding-top: 10px;
     padding-bottom: 5px;
     border-radius: 5px;
