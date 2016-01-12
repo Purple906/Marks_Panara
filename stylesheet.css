@@ -58,7 +58,7 @@ body{
 .blog{
     width: 290px;
     height: auto;
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 0px 5px;
     border-radius: 5px;
 }
 .carousel{
@@ -306,24 +306,19 @@ body{
     display: inline;
     font-size: 18px;
     margin:10px;
-    width: 750px;
 }
 .say-hey{
     text-align: center;
     font-size: 50px;
     padding-top: 40px;
 }
-.store_front{
-    float: left;
-    padding: 0px 0px 0px 0px;
-    margin: 20px 20px 10px 10px;
-    width: 450px;
-}
 .store_img{
     border-radius: 5px;
-    border-width: 450px;
     border: solid 1px;
-    width: 456px;
+    width: auto;
+    height: auto;
+    margin: 20px 10px 10px 0px;
+    float: left;
 }
 .Store_Hours{
     border: solid #331919 5px;
@@ -337,7 +332,7 @@ body{
     width: 300px;
     height: auto;
     float: left;
-    margin: 20px;
+    margin: 20px 10px 10px 40px;
     padding-top: 10px;
     padding-bottom: 5px;
     border-radius: 5px;
