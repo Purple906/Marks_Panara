@@ -343,7 +343,8 @@ body{
     width: 100%;
     margin: auto;
     height: 110px;
-    background-color: #AB3334;
+    background-image: url(./assets/images/landscape.jpg);
+    background-size: auto 110px;
     position: absolute fixed;
     overflow: hidden;
     z-index: 1;
