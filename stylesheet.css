@@ -340,7 +340,9 @@ body{
     margin: auto;
     height: auto;
     background-image: url(./assets/images/landscape.jpg);
-    position: absolute fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
     overflow: hidden;
     z-index: 1;
 }
@@ -385,9 +387,10 @@ body { font-family: sans-serif; }
 /* ---- grid ---- */
 
 .grid {
-  background: #EEE;
+  background: transparent;
   max-width: 1200px;
-  margin-left: 20px;
+  margin: 20px auto;
+  border-radius: 5px;
 }
 
 /* clearfix */
@@ -407,6 +410,7 @@ body { font-family: sans-serif; }
   border: 2px solid #333;
   border-color: hsla(0, 0%, 0%, 0.5);
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .grid-item--width2 { width: 320px; }
