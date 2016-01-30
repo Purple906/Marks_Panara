@@ -3,6 +3,9 @@
     <link href="bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <title>Test Page</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -19,25 +22,6 @@
                 <p class="line_info">Or swing by the shop!</p>
                 <p class="line_info">125 W Washington St.<br>Marquette MI, 49855</p>
             </div>
-            <table class="Store_Hours">
-                <thead>
-                    <tr>
-                        <td colspan="2"><strong>Operating Hours</strong></td>
-                    </tr>
-                </thead>
-                    <tr>
-                        <td>Mon-Fri</td>
-                        <td>11:00am - 7:00pm</td>
-                    </tr>
-                    <tr>
-                        <td>Sat</td>
-                        <td>12:00am - 7:00pm</td>
-                    </tr>
-                    <tr>
-                        <td>Sun</td>
-                        <td>12:00am - 4:00pm</td>
-                    </tr>
-            </table>
         <ul class="social clearfix col-md-5">
             <li class="social_media"><a href="https://www.facebook.com/Panaramqt?fref=ts"><img class="social_logo" src="./assets/images/grey_facebook-32.png"></a></li>
             <li class="social_media"><a href="http://www.yelp.com/biz/panara-imports-inc-marquette"><img class="social_logo" src="./assets/images/grey_yelp-2-32.png"></a></li>
@@ -46,6 +30,25 @@
             <li class="social_media"><a href="https://www.linkedin.com/pub/martha-parks/95/665/226"><img class="social_logo" src="./assets/images/grey_linkedin-6-32.png"></a></li>
             <li class="social_media"><a href="mailto:mark.m.hayes1@gmail.com"><img class="social_logo" src="./assets/images/grey_email-11-32.png"></a></li>
         </ul>
+        <table class="Store_Hours">
+            <thead>
+                <tr>
+                    <td colspan="2"><strong>Operating Hours</strong></td>
+                </tr>
+            </thead>
+                <tr>
+                    <td>Mon-Fri</td>
+                    <td>11:00am - 7:00pm</td>
+                </tr>
+                <tr>
+                    <td>Sat</td>
+                    <td>12:00am - 7:00pm</td>
+                </tr>
+                <tr>
+                    <td>Sun</td>
+                    <td>12:00am - 4:00pm</td>
+                </tr>
+            </table>
     </div>
     <div>
         <nav class=" nav_bar navbar-inverse">
@@ -144,11 +147,11 @@
 </div>
 
 <div class="grid">
-  <div class="grid-item"></div>
+    <div class="grid-item"></div>
   <div class="grid-item grid-item--width2 grid-item--height2"><a href="http://panaraimports.tumblr.com/"><img class="blog" src="./assets/images/blog_photo1.jpg"></a></div>
-  <div class="grid-item grid-item--height3"></div>
-  <div class="grid-item grid-item--height2"></div>
-  <div class="grid-item grid-item--width3"></div>
+  <div class="grid-item grid-item--height3"><a href="https://squareup.com/market/panara-imports/amber-body-oil" class="sq-embed-item"> online</a></div>
+  <div class="grid-item grid-item--height3"><div style="box-sizing: border-box; font-size: 14px; font-family: 'Helvetica Neue', sans-serif; max-height: 631px; width: 420px; height: 613px; min-width: 200px; overflow: hidden;"><div style="box-sizing: border-box; height: 0px; overflow: hidden; padding-bottom: 100%; padding-top: 88px; position: relative;"><iframe frameborder="0" marginwidth="0" marginheight="0" scrolling="no" src="https://squareup.com/embeds/merchandiser?merchant_id=panara-imports&amp;focus_item_id=amber-body-oil&amp;square_lead=item_embed" style="height: 100%; position: absolute; top: 0px; left: 0px; width: 100%;"></iframe></div></div></div>
+  <div class="grid-item grid-item--width2"> this one?</div>
   <div class="grid-item"></div>
   <div class="grid-item"></div>
   <div class="grid-item grid-item--height2"></div>
@@ -186,10 +189,12 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="bootstrap.min.js"></script>
     <script src="masonry.pkgd.js"></script>
+    <script src="https://cdn.sq-api.com/market/embed.js" charset="utf-8"></script>
     <script>
         $('.grid').masonry({
         itemSelector: '.grid-item',
         columnWidth: 160,
+        gutter: 10,
         percentPosition: true
     });
     </script>
