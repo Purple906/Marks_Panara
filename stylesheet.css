@@ -58,7 +58,7 @@ body{
 .blog{
     width: 290px;
     height: auto;
-    margin: 10px 0px 0px -10px;
+    margin: auto;
     border-radius: 5px;
 }
 .carousel{
@@ -338,7 +338,7 @@ body{
     display: block;
     width: 100%;
     margin: auto;
-    height: 110px;
+    height: auto;
     background-image: url(./assets/images/landscape.jpg);
     position: absolute fixed;
     overflow: hidden;
@@ -378,20 +378,16 @@ body{
     border-radius: 0px 0px 5px 5px;
 }*/
 
-/* --- Grid ---*/
-.grid-sizer,
-.grid-item { width: 20%; }
-/* 2 columns wide */
-.grid-item--width2 { width: 40%; }
-
 * { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+/* ---- grid ---- */
+
 .grid {
-    width: 100%;
-    margin-top: 20px;
-    margin-left: 20px;
-    border-radius: 5px;
   background: #EEE;
   max-width: 1200px;
+  margin-left: 20px;
 }
 
 /* clearfix */
@@ -403,28 +399,22 @@ body{
 
 /* ---- grid-item ---- */
 
-.grid-sizer,
 .grid-item {
-  width: 20%;
-}
-
-.grid-item {
-  width: auto;
-  height: auto;
+  width: 160px;
+  height: 120px;
   float: left;
   background: #D26;
-  /*padding-left: 10px;*/
   border: 2px solid #333;
   border-color: hsla(0, 0%, 0%, 0.5);
   border-radius: 5px;
-  margin-bottom: 10px;
 }
 
-/*.grid-item--width2 { width: 320px; }
+.grid-item--width2 { width: 320px; }
 .grid-item--width3 { width: 480px; }
 .grid-item--width4 { width: 640px; }
 
 .grid-item--height2 { height: 200px; }
 .grid-item--height3 { height: 260px; }
-.grid-item--height4 { height: 360px; }*/
+.grid-item--height4 { height: 360px; }
+
 
