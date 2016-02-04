@@ -30,7 +30,7 @@ p{
     text-indent: 25px;
     padding: 0px 15px;
     margin: 10px;
-    font-family: fantasy;
+    /*font-family: fantasy;*/
     color: #EDDAB6;
 }
 p:first-child{
@@ -38,11 +38,6 @@ p:first-child{
 }
 td{
     padding: 0px 5px;
-    text-align: center;
-}
-strong{
-    text-decoration: underline;
-    color: #331919;
 }
 ul{
     margin: 0;
@@ -51,9 +46,7 @@ ul{
     width: auto;
 }
 body{
-    background-image: url(./assets/images/background_2.jpg);
-    background-size: 1280px 960px;
-    background-attachment: fixed;
+    font-family: helvetica;
 }
 .blog{
     width: 290px;
@@ -82,7 +75,7 @@ body{
 }
 .content_info{
     font-size: 16px;
-    font-family: fantasy;
+    /*font-family: fantasy;*/
     margin-left: 10px;
     margin-top: 0px;
     text-indent: 0px;
@@ -242,7 +235,7 @@ body{
     margin: 10px 0px 10px 15px;
     border-radius: 5px;
 }
-.saying{
+/*.saying{
     display: inline-block;
     width: 444px;
     height: auto;
@@ -254,13 +247,13 @@ body{
     border-style: double;
     border-radius: 5px;
     margin: 10px 10px 10px -5px;
-}
+}*/
 .saying2{
     border-style: double;
     border: 1px;
     width: 930px;
     font-size: 18px;
-    font-family: fantasy;
+    /*font-family: fantasy;*/
     float: left;
     margin: 10px;
     padding: 5px;
@@ -293,8 +286,6 @@ body{
     position: relative;
     margin: 55px 0px 0px 0px;
     padding: 0px;
-    font-family: fantasy;
-    color: #EDDAB6;
     width: 450px;
     height: 12px;
 }
@@ -317,9 +308,6 @@ body{
     float: left;
 }
 .Store_Hours{
-    border: solid #331919 5px;
-    border-radius: 5px;
-    color: #EDDAB6;
     display:inline-block;
     margin: 10px 20px;
 }
