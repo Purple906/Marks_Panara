@@ -1,10 +1,13 @@
 a{
     text-decoration: none;
-    color: green;
+    color: #FFFFFF;
 }
 blockquote{
     border-left: 0px;
     padding-left: 10px;
+}
+h1{
+    font-size: 60px;
 }
 h3{
     font-family: fantasy;
@@ -152,7 +155,8 @@ body{
 .line_info{
     margin: 5px;
     text-indent: 0px;
-    color: #EDDAB6;
+    color: #FFFFFF;
+    width: auto;
 }
 .link{
     text-decoration: none;
@@ -170,9 +174,9 @@ body{
     margin: 0px 15px 10px 20px;
 }
 .logo{
-    width: 100px;
-    margin-top: 10px;
-    padding: 0px;
+    width: 260px;
+    margin-top: 58px;
+    margin-left: 56px;
     display: inline;
     float: left;
 }
@@ -193,11 +197,9 @@ body{
 .nav_bar{
     background-color: black;
     display: block;
-    position: relative fixed;
     width: 100%;
     height: auto;
     margin-top: auto;
-    z-index: 1;
 }
 .nav_collapse{
     background-color: black;
@@ -253,41 +255,34 @@ body{
     border: 1px;
     width: 930px;
     font-size: 18px;
-    /*font-family: fantasy;*/
     float: left;
     margin: 10px;
     padding: 5px;
 }
-.social{
-    float: right;
-    margin: 65px 0px 0px 0px;
+/*.social{
+    margin: 20px 0px 0px 0px;
     padding: 0px;
     text-align: center;
     display: inline;
-}
+}*/
 .social_media{
     border-right: none;
     padding: 5px;
-    position: relative;
-    margin-top: 0px;
     margin-left: 0px;
     display: inline-block;
 }
 .social_logo{
-    height: auto;
-    width: 25px;
+    height: 16px;
+    width: auto;
     background-color: transparent;
     text-align: center;
 }
 .slogan{
-    font-size: 10px;
+    font-size: 24px;
+    color: #FFFFFF;
     text-indent: 0px;
-    display: inline-block;
-    position: relative;
-    margin: 55px 0px 0px 0px;
-    padding: 0px;
-    width: 450px;
-    height: 12px;
+    margin: 0px auto;
+    width: auto;
 }
 .story{
     display: inline;
@@ -309,42 +304,42 @@ body{
 }
 .Store_Hours{
     display:inline-block;
-    margin: 10px 20px;
+    float: right;
+    margin-top: -80px;
+    margin-right: 60px;
+    font-size: 14px;
+    color: #FFFFFF;
 }
 .store_info{
     display: inline-block;
     width: 300px;
     height: auto;
-    float: left;
-    margin: 20px 10px 10px 0px;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    margin: 0px;
     border-radius: 5px;
-    background-color: black;
+    background-color: transparent;
 }
 .title_bar{
     display: block;
     width: 100%;
-    margin: auto;
-    height: auto;
+    margin: -85px 0px 0px 0px;
+    padding-top: 20px;
+    height: 350px;
     background-image: url(./assets/images/landscape.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
-    z-index: 1;
 }
 .title{
     display: inline-block;
-    position: absolute;
-    margin: 20px 0px 0px 0px;
-    padding: 0px;
+    font-family: IowanOldStyle-Bold;
+    font-size: 138.5px;
+    color: #FFFFFF;
+    margin-top: 58px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
     vertical-align: top;
-}
-.title-slogan{
-    float: left;
-    margin-top: 10px;
-    margin-left: 5px;
 }
 /*h1{
     background-image: url(./assets/images/background_2.jpg);
