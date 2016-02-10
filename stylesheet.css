@@ -2,6 +2,12 @@ a{
     text-decoration: none;
     color: #FFFFFF;
 }
+address{
+    margin: -15px 338px;
+    color: #FFFFFF;
+    width: auto;
+    vertical-align: top;
+}
 blockquote{
     border-left: 0px;
     padding-left: 10px;
@@ -34,10 +40,17 @@ p{
     padding: 0px 15px;
     margin: 10px;
     /*font-family: fantasy;*/
-    color: #EDDAB6;
+    color: black;
 }
 p:first-child{
     margin-top: 0px;
+}
+span{
+    margin-right: 30px;
+    color: #FFFFFF;
+}
+span:last-child{
+    margin-right: 0px;
 }
 td{
     padding: 0px 5px;
@@ -47,6 +60,9 @@ ul{
     padding: 0;
     margin-top: auto;
     width: auto;
+}
+li{
+    color: #FFFFFF;
 }
 body{
     font-family: helvetica;
@@ -67,11 +83,9 @@ body{
     margin: 0 auto;
 }
 .content_box{
-    background-color: #AB3334;
     width: auto;
     height: auto;
-    float: left;
-    margin: auto;
+    margin: 10px auto;
     display: inline-block;
     border-radius: 5px;
     overflow: hidden;
@@ -152,12 +166,6 @@ body{
     float: left;
     height: auto;
 }
-.line_info{
-    margin: 5px;
-    text-indent: 0px;
-    color: #FFFFFF;
-    width: auto;
-}
 .link{
     text-decoration: none;
     color: black;
@@ -181,7 +189,7 @@ body{
     float: left;
 }
 .map{
-    margin: 10px;
+    margin: 20px 20px;
     padding: 0px;
     display: inline-block;
     float: right;
@@ -191,26 +199,24 @@ body{
     width: auto;
     border-radius: 10px;
     border:solid 1px;
-    margin: 10px;
+    margin: 20px;
     float: left;
 }
 .nav_bar{
-    background-color: black;
+    background-color: transparent;
     display: block;
-    width: 100%;
+    width: auto;
     height: auto;
-    margin-top: auto;
 }
 .nav_collapse{
-    background-color: black;
+    background-color: transparent;
     margin: auto;
     width: auto;
 }
 .press{
-    display: inline-block;
     width: 150px;
     height: auto;
-    margin: 20px 10px 10px 90px;
+    margin: 20px 0px 0px 90px;
 }
 /*.products{
     border:solid;
@@ -278,11 +284,13 @@ body{
     text-align: center;
 }
 .slogan{
+    display: inline-block;
     font-size: 24px;
     color: #FFFFFF;
-    text-indent: 0px;
-    margin: 0px auto;
+    margin: -20px 0px 0px 20px;
     width: auto;
+    vertical-align: top;
+    text-align: center;
 }
 .story{
     display: inline;
@@ -299,14 +307,14 @@ body{
     border: solid 1px;
     width: auto;
     height: auto;
-    margin: 20px 10px 10px 0px;
-    float: left;
+    margin: 20px 20px 10px 10px;
+    float: right;
 }
 .Store_Hours{
     display:inline-block;
     float: right;
-    margin-top: -80px;
-    margin-right: 60px;
+    margin-top: -50px;
+    margin-right: 80px;
     font-size: 14px;
     color: #FFFFFF;
 }
@@ -332,6 +340,7 @@ body{
 }
 .title{
     display: inline-block;
+    text-align: center;
     font-family: IowanOldStyle-Bold;
     font-size: 138.5px;
     color: #FFFFFF;
@@ -365,13 +374,11 @@ body{
 
 * { box-sizing: border-box; }
 
-body { font-family: sans-serif; }
-
 /* ---- grid ---- */
 
 .grid {
   background: transparent;
-  max-width: 1200px;
+  max-width: 1230px;
   margin: 20px auto;
   border-radius: 5px;
 }
@@ -386,8 +393,8 @@ body { font-family: sans-serif; }
 /* ---- grid-item ---- */
 
 .grid-item {
-  width: 160px;
-  height: 120px;
+  width: 300px;
+  height: 375px;
   float: left;
   background: #D26;
   border: 2px solid #333;
@@ -396,12 +403,12 @@ body { font-family: sans-serif; }
   margin-bottom: 10px;
 }
 
-.grid-item--width2 { width: 320px; }
+/*.grid-item--width2 { width: 320px; }
 .grid-item--width3 { width: 480px; }
 .grid-item--width4 { width: 640px; }
 
 .grid-item--height2 { height: 200px; }
 .grid-item--height3 { height: 260px; }
-.grid-item--height4 { height: 360px; }
+.grid-item--height4 { height: 360px; }*/
 
 
