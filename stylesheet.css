@@ -107,13 +107,14 @@ body{
     color: #FFFFFF;
 }
 .contact_table{
-    margin: 30px 10px;
+    margin: 40px 20px;
     display: inline-block;
+    vertical-align: top;
 }
 .contact_item{
     margin: 5px;
     border-right: solid;
-    font-size: 16px;
+    font-size: 14px;
     font-family: IowanOldStyle;
     color: #FFFFFF;
 }
@@ -150,29 +151,39 @@ body{
 }
 .foot_step{
     border-bottom: 1px solid #FFFFFF;
-    margin: 0px auto;
+    margin: 5px auto;
     width: 220px;
+}
+.foot_step_2{
+    border-bottom: 1px solid #000000;
+    margin: 5px 10px;
+    width: 320px;
 }
 .foot_story{
     color: #FFFFFF;
     font-size: 10px;
     width: 220px;
     height: auto;
+    padding-bottom: 5px;
 }
 .footer{
     background: #000000;
     width: 100%;
     height: auto;
     margin: 50px auto 0px;
-    padding: 0px 0px 90px 0px;
+    padding: 0px 0px 20px 0px;
     display: block;
     border-radius: 5px;
 }
 .foot_addy{
-    bottom: 0;
+    vertical-align: bottom;
+    width: auto;
 }
 .foot_header{
     margin: 0px;
+}
+.foot_info{
+    margin: 40px 30px;
 }
 .img_story{
     margin: 0px 0px 20px 10px;
@@ -291,11 +302,25 @@ body{
     padding: 5px;
     margin-left: 0px;
 }
+.social_media_2{
+    border-right: none;
+    padding: 5px;
+    margin: 5px auto;
+    text-align: center;
+    width: auto;
+}
 .social_logo{
     height: 16px;
     width: auto;
     background-color: transparent;
     text-align: center;
+}
+.social_logo_2{
+    height: 20px;
+    width: auto;
+    background-color: transparent;
+    text-align: center;
+    padding-right: 3px;
 }
 .slogan{
     display: inline-block;
@@ -318,6 +343,7 @@ body{
     color: #FFFFFF;
     font-size: 50px;
     padding-top: 0px;
+    padding-right: 15px;
 }
 .store_img{
     border-radius: 5px;
@@ -407,17 +433,18 @@ body{
     font-size: 25px;
     color: #000000;
     margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 35px;
+    margin-bottom: 0px;
+    margin-left: 10px;
     margin-right: 0px;
 }
 .grid_sub{
     font-family: IowanOldStyle;
     font-size: 15px;
     color: #000000;
+    padding-top: 5px;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 35px;
+    margin-left: 10px;
     margin-right: 0px;
 }
 .grid {
