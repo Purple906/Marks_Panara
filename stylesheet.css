@@ -1,3 +1,16 @@
+@media screen (max-width:410px;) {
+    .logo{
+        display: none;
+    }
+    .title{
+        font-size: 200px
+        margin:0px auto;
+    }
+    .slogan{
+        font-size: 10px;
+    }
+}
+
 a{
     text-decoration: none;
     color: #FFFFFF;
